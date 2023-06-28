@@ -1,0 +1,75 @@
+* {
+    font-family: "Orbitron", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    height: 100vh;
+    padding-top: 3rem;
+    background-color: #151111;
+  }
+  
+  .container h1 {
+    color: #8717a9;
+  }
+  
+  .timer {
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #908989;
+  }
+  
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #545559;
+    min-width: 90px;
+  }
+  
+  .separator {
+    font-size: 60px;
+    padding: 0 10px;
+    color:  #56575a;
+  }
+  
+  #milliseconds {
+    font-size: 30px;
+    color: #b6b7b9;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+    background-color: #151111;
+    color:#8717a9;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+    background-color: #000000;
+    color:#a428ca;
+  }
+  
+  #startBtn {
+    background-color: #000000;
+    color:#a428ca;
+  }
